@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rexpfd>
+    <destination path="Maximes-MBP.sftp.hs-furtwangen.de:/public_html/EIA1/Maxime-Caruso-Portfolio"/>
+    <options createDirectoryStructure="false" createSelectedOnly="true" descriptionFilePath="/Maxime-Caruso-Portfolio/Maxime-Caruso-Portfolio.rexpfd" overWriteExistingFiles="false" reviewSynchronize="true" saveSettings="true"/>
+    <selectedElements>
+        <project name="Maxime-Caruso-Portfolio"/>
+    </selectedElements>
+</rexpfd>

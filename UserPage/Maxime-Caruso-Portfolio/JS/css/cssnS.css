@@ -1,0 +1,254 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	overflow:hidden;
+}
+
+#up {
+		position:fixed;
+		right:3%;
+		bottom:3em;
+		border:none;
+		height:60px;
+		width:60px;
+		display:block;
+		background-color:#ddd;
+		z-index:99;
+		opacity:0.5;
+
+}
+#up div{
+	width:60px;
+	height:60px;
+	overflow:hidden;
+	}
+#up:hover img{
+	animation: upAn 0.7s steps(6) infinite;
+}
+#up img{
+		position:fixed;
+		right:3%;
+		bottom:3em;
+		height:60px;
+		width:60px;
+}
+
+.sek{
+	height:25em;
+	width:120%;
+	margin-left:-10%;
+	background-color:white;
+	overflow: hidden; 
+	position:relative;
+	color:black;
+	
+}
+.sek:last-child{
+	height:3em;
+}
+.sek:nth-child(6) {
+    height:70em;    
+}
+.sek:nth-child(2n+1){
+	background-color:#020;
+	color:white;
+}
+#back2{
+	height:60vh;
+	width:110%;
+	background-image:url("../images/Bilder HVH/2017_05_25 (14).JPG");
+	background-attachment:fixed;
+	background-size:100%;
+	boxshadow-bottom : 1px solid black;
+}
+#back1{
+	height:60vh;
+	width:110%;
+	background-image:url("../images/Bilder HVH/DSC06549.JPG");
+	background-attachment:fixed;
+	background-size:100%;
+}
+#back3{
+	height:60vh;
+	width:110%;
+	background-image:url("../images/Bilder HVH/2017_05_25 (53).JPG");
+	background-attachment:fixed;
+	background-size:100%;
+}
+#back4{
+	height:60vh;
+	width:110%;
+	background-image:url("../images/BilderStart/2017_05_25 (50).JPG");
+	background-attachment:fixed;
+	background-size:100%;
+}
+#back5{
+	height:60vh;
+	width:110%;
+	background-image:url("../images/Museum.jpeg");
+	background-attachment:fixed;
+	background-size:100%;
+	background-position-y:-6em;
+}
+.berreich{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+	width:100%;
+}
+th > p{
+	font-size:1.5em;
+	text-align:left;
+	color:white;
+}
+th{
+	width:50%;
+	height:60vh;
+}
+#ersterSek th{
+	width:50%;
+	height:100vh;
+}
+.katego{
+	margin:2%;
+	height:2em;
+	text-align:center;
+	opacity:0.85;
+	background-color:white;
+	width:30%;
+	font-size:2em;
+	position:relative;
+	top:25vh;
+}
+#bildHaus{
+	width:29em;
+}
+#startEM{
+	font-size:3em;
+	line-height:0.3em;
+	color:white;
+}
+a{
+	color:black;
+}
+a:hover::before{
+		content:url(../images/arrow-24-xxl2.png);
+		width:15px;
+		height:15px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 106%;
+	height: 70px;
+	background-color:white;
+	left:-3%;
+	display:block;
+	z-index:10;
+	opacity:0.95;
+}
+#nav1{}
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+	float:right;
+}
+
+nav li a {
+	color: #888;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+ul{
+	margin-right:10%;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+#bildLogo{
+	width:15em;
+}
+.leftArrow{
+	background-color:white;
+	width:45px;
+	height:45px;
+	border:none;
+	display:inline-block;
+	margin-left:10%;
+	position:absolute;
+	margin-top:50vh;
+
+}
+.rightArrow {
+	float:right;
+	width:45px;
+	border:none;
+	height:45px;
+	background-color:white;
+	display:inline-block;
+	margin-left:87%;
+	position:absolute;
+	margin-top:50vh;
+	
+}
+.leftArrow img{
+	width:45px;
+	height:45px;
+
+}
+.rightArrow img {
+	width:45px;
+	height:45px;
+}
+.bildSlide{
+	
+	margin:10%;
+	margin-top:5vh;
+	opacity:1;
+	width:60%;
+	position:absolute;
+}
+@keyframes upAn{
+	from{height:0;}
+	to{height:100px;}
+}
+.personBox{
+	width: 80%;
+	height: 35em;
+	margin:auto;
+}
+.text{
+	text-align:left;
+}
+.bild{width:50%;}
+.bild img{
+	width:100%;
+}
+#bildTeam{
+	width:40%;
+	margin-left:30%;
+	margin-top:1em;
+}
+#zentriert{
+	text-align:center;
+}
+.karte{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1em;
+}
+#bild{
+	background-image:url("../img/Visualisierungen/hsh3.png");
+	height:100vh;
+	width:100%;
+	background-size:150%;
+}

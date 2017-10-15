@@ -1,0 +1,745 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	overflow-x:hidden;
+}
+.handy{
+	display:initial !important;
+}
+.desk{
+	display:none !important;
+}
+
+#up {	
+		position:fixed;
+		right:3%;
+		bottom:3em;
+		border:none;
+		height:60px;
+		width:60px;
+		display:none;
+		background-color:#ddd;
+		z-index:99;
+		opacity:0.5;
+
+}
+#bildLogo{
+	width:200%;
+	display:none;
+	margin-left:29%;
+	margin-top:-20%;
+}
+#bildLogo2{
+	width:95%;
+	display:block;
+	margin-left:2.5%;
+	margin-top:-10%;
+}
+.visualiesierung{
+	width:110%;
+	margin-left:-5%;
+	display:block;
+}
+.gebaut{
+	width:110%;
+	margin-left:-5%;
+	margin-top:0.7em;
+}
+.wichtig{
+	color:#FF7F00;
+}
+#up div{
+	
+	width:60px;
+	height:60px;
+	overflow:hidden;
+	}
+#up:hover img{
+	animation: upAn 0.7s steps(6) infinite;
+}
+#up img{
+		position:fixed;
+		right:3%;
+		bottom:3em;
+		height:60px;
+		width:60px;
+}
+
+.sek{
+	height:80vh;
+	width:120%;
+	margin-left:-10%;
+	background-color:white;
+	overflow: hidden; 
+	position:relative;
+	color:black;
+	border-bottom:2px solid #FF7F00
+}
+.sek:last-child{
+	height:3em;
+	border-bottom:none;
+}
+.sek:nth-child(1) {
+    margin-top:95vh;    
+}
+.sek:nth-child(2) {
+    height:50vh;    
+}
+
+#sek {
+	background-color:black !important;
+	color:white !important;
+}
+#sek1 {
+	background-color:white !important;
+	color:black !important;
+}
+#sek2 {
+	background-color:black !important;
+	color:white !important;
+}
+#sek3 {
+	background-color:white !important;
+	color:black !important;
+}
+#sek4 {
+	background-color:black !important;
+	color:white !important;
+}
+.sek> div> span{
+	top:2em;
+	font-size:1.5em;
+	left:17%;
+	color:#111;
+	position:relative;
+}
+#ersterSek{
+		background-color:#aaa;
+    height:95vh;
+    display:block;
+	opacity:1;
+		position:fixed;
+    top:-95vh;
+}
+.berreich{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+	width:100%;
+}
+th > p{
+	font-size:1.5em;
+	text-align:left;
+	color:white;
+}
+th{
+	width:50%;
+	height:60vh;
+}
+#ersterSek th{
+	width:50%;
+	height:100vh;
+}
+#bildHausHa{
+	width:100%;
+	position:relative;
+	margin:auto;
+	z-index:2;
+	margin-top:2.5em;
+}
+.animation1Ha{
+	position:relative;
+	margin:auto;
+	font-size:1.5em;
+	margin-top:0.5em;
+}
+#startEM{
+	font-size:1em;
+	line-height:1.2em;
+	color:black;
+	display:none;
+}
+#startEM2{
+	font-size:2em;
+	line-height:1.2em;
+	color:black;
+	display:block;
+	margin-top:-1em;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover::before{
+		content:url(../images/arrow-24-xxl2.png);
+		width:15px;
+		height:15px;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 106%;
+	height: 70px;
+	background-color:white;
+	left:-3%;
+	display:block;
+	z-index:10;
+	opacity:0.95;
+}
+#nav1{}
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+	float:right;
+}
+
+nav li a {
+	color: #888;
+	text-transform: uppercase;
+}
+nav ul{
+	margin-right:10%;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+
+.leftArrow{
+	background-color:white;
+	width:45px;
+	height:45px;
+	border:none;
+	display:inline-block;
+	left:12%;
+	position:absolute;
+	top:40vh;
+
+}
+.rightArrow {
+	float:right;
+	width:45px;
+	border:none;
+	height:45px;
+	background-color:white;
+	display:inline-block;
+	right:12%;
+	position:absolute;
+	top:40vh;
+	
+}
+.leftArrow img{
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:0%;
+	top:1%;
+
+}
+.rightArrow img {
+	width:45px;
+	height:45px;
+		position:absolute;
+	left:0%;
+	top:1%;
+}
+.leftArrowPro{
+	background-color:white;
+	width:45px;
+	height:45px;
+	border:none;
+	display:inline-block;
+	left:12%;
+	position:absolute;
+	top:70vh;
+
+}
+.rightArrowPro {
+	float:right;
+	width:45px;
+	border:none;
+	height:45px;
+	background-color:white;
+	display:inline-block;
+	right:12%;
+	position:absolute;
+	top:70vh;
+	
+}
+.leftArrowPro img{
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:0%;
+	top:1%;
+
+}
+.rightArrowPro img {
+	width:45px;
+	height:45px;
+		position:absolute;
+	left:0%;
+	top:1%;
+}
+.bildSlide{
+
+	margin-left:-3%;
+	margin-top:-2vh;
+	opacity:1;
+	width:86%;
+	position:absolute;
+}
+@keyframes bildFade{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@keyframes upAn{
+	from{height:0;}
+	to{height:100px;}
+}
+
+#back2{
+	height:30vh;
+	width:100%;
+	background-image:url("../img/Visualisierungen/bild2.jpg");
+	background-attachment:fixed;
+	background-size:100%;
+}
+.katego{
+	margin:2%;
+	height:2em;
+	text-align:center;
+	opacity:0.85;
+	background-color:white;
+	width:30%;
+	font-size:2em;
+	position:relative;
+	top:25vh;
+}
+.trenner{
+	height:30vh;
+
+}
+
+#menu{
+	width:0%;
+	height:100vh;
+	opacity:0.8;
+	background-color:black;
+	position:fixed;
+	z-index:99;
+	top:0;
+	left:-5%;
+	color:white;
+}
+#menu li{
+	list-style:none;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+	text-align:center;
+	font-size:0em;
+	margin-top:2vh;
+
+
+}
+#menu ul{
+	margin-top:40vh;
+}
+#x{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%
+}
+#xDiv{
+	position:fixed;
+	top: 5vh;
+	right:-5%;
+	width:5%;
+	z-index:99;
+}
+#xDiv :hover{
+background-color:#FF7F00;
+	
+}
+#loading{
+position: fixed;
+left: 0;
+top: 0;
+z-index: 999;
+width: 100%;
+height: 100%;
+overflow: visible;
+background: white url("../videos/box.gif") no-repeat center center;
+background-size:35%;
+}
+#loading span{
+	left:33%;
+	top:70vh;
+	position:absolute;
+}
+
+
+@media screen and (min-width:570px){
+
+	.handy{
+		display:none !important;
+	}
+	.desk{
+		display:initial !important;
+	}
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	overflow-x:hidden;
+}
+
+#up {	
+		position:fixed;
+		right:3%;
+		bottom:3em;
+		border:none;
+		height:60px;
+		width:60px;
+		display:none;
+		background-color:#ddd;
+		z-index:99;
+		opacity:0.5;
+
+}
+#bildLogo{
+	width:150%;
+	display:none;
+	margin-left:29%;
+	margin-top:-20%;
+}
+
+.visualiesierung{
+	width:190%;
+	margin-left:0%;
+	display:none;
+}
+.gebaut{
+	width:190%;
+	margin-left:0%;
+	margin-top:0em;
+}
+.wichtig{
+	color:#FF7F00;
+}
+#up div{
+	
+	width:60px;
+	height:60px;
+	overflow:hidden;
+	}
+#up:hover img{
+	animation: upAn 0.7s steps(6) infinite;
+}
+#up img{
+		position:fixed;
+		right:3%;
+		bottom:3em;
+		height:60px;
+		width:60px;
+}
+.sek{
+	height:25em;
+	width:120%;
+	margin-left:-10%;
+	background-color:white;
+	overflow: hidden; 
+	position:relative;
+	color:black;
+	border-bottom:2px solid #FF7F00
+}
+.sek:last-child{
+	height:3em;
+	border-bottom:none;
+}
+.sek:nth-child(1) {
+    margin-top:95vh;    
+}
+.sek:nth-child(2) {
+    height:95vh;    
+}
+
+.sek> div> span{
+	top:3em;
+	font-size:2em;
+	left:40%;
+	color:#111;
+	position:relative;
+}
+#ersterSek{
+	background-image:url("../img/Visualisierungen/hsh3_2.png");
+	background-size:100%;
+		background-color:white;
+	filter: brightness(100%);
+    height:95vh;
+    display:block;
+	opacity:1;
+		position:fixed;
+    top:-95vh;
+}
+.berreich{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+	width:100%;
+}
+th > p{
+	font-size:1.5em;
+	text-align:left;
+	color:white;
+}
+th{
+	width:50%;
+	height:60vh;
+}
+#ersterSek th{
+	width:50%;
+	height:100vh;
+}
+#bildHaus{
+	width:29em;
+	position:relative;
+	left:30%;
+	z-index:2;
+}
+.animation1{
+	position:relative;
+	left:-50%;
+}
+#startEM{
+	font-size:3em;
+	line-height:1.2em;
+	color:black;
+	display:none;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover::before{
+		content:url(../images/arrow-24-xxl2.png);
+		width:15px;
+		height:15px;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 106%;
+	height: 70px;
+	background-color:white;
+	left:-3%;
+	display:block;
+	z-index:10;
+	opacity:0.95;
+}
+#nav1{}
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+	float:right;
+}
+
+nav li a {
+	color: #888;
+	text-transform: uppercase;
+}
+nav ul{
+	margin-right:10%;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+.leftArrowPro{
+	background-color:white;
+	width:45px;
+	height:45px;
+	border:none;
+	display:inline-block;
+	left:12%;
+	position:absolute;
+	top:70vh;
+
+}
+.rightArrowPro {
+	float:right;
+	width:45px;
+	border:none;
+	height:45px;
+	background-color:white;
+	display:inline-block;
+	right:12%;
+	position:absolute;
+	top:70vh;
+	
+}
+.leftArrow img{
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:0%;
+	top:1%;
+
+}
+.rightArrow img {
+	width:45px;
+	height:45px;
+		position:absolute;
+	left:0%;
+	top:1%;
+}
+.leftArrowPro{
+	background-color:white;
+	width:45px;
+	height:45px;
+	border:none;
+	display:inline-block;
+	left:12%;
+	position:absolute;
+	top:70vh;
+
+}
+.rightArrowPro {
+	float:right;
+	width:45px;
+	border:none;
+	height:45px;
+	background-color:white;
+	display:inline-block;
+	right:12%;
+	position:absolute;
+	top:70vh;
+	
+}
+.leftArrowPro img{
+	width:45px;
+	height:45px;
+	position:absolute;
+	left:0%;
+	top:1%;
+
+}
+.rightArrowPro img {
+	width:45px;
+	height:45px;
+		position:absolute;
+	left:0%;
+	top:1%;
+}
+.bildSlide{
+
+	margin-left:-3%;
+	margin-top:-2vh;
+	opacity:1;
+	width:86%;
+	position:absolute;
+}
+@keyframes bildFade{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@keyframes upAn{
+	from{height:0;}
+	to{height:100px;}
+}
+
+#back2{
+	height:30vh;
+	width:100%;
+	background-image:url("../img/Visualisierungen/bild2.jpg");
+	background-attachment:fixed;
+	background-size:100%;
+}
+.katego{
+	margin:2%;
+	height:2em;
+	text-align:center;
+	opacity:0.85;
+	background-color:white;
+	width:30%;
+	font-size:2em;
+	position:relative;
+	top:25vh;
+}
+.trenner{
+	height:30vh;
+
+}
+
+#menu{
+	width:0%;
+	height:100vh;
+	opacity:0.8;
+	background-color:black;
+	position:fixed;
+	z-index:99;
+	top:0;
+	left:-5%;
+	color:white;
+}
+#menu li{
+	list-style:none;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+	text-align:center;
+	font-size:0em;
+	margin-top:2vh;
+
+
+}
+#menu ul{
+	margin-top:40vh;
+}
+#x{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%
+}
+#xDiv{
+	position:fixed;
+	top: 5vh;
+	right:-5%;
+	width:5%;
+	z-index:99;
+}
+#xDiv :hover{
+background-color:#FF7F00;
+	
+}
+#loading{
+position: fixed;
+left: 0;
+top: 0;
+z-index: 999;
+width: 100%;
+height: 100%;
+overflow: visible;
+background: white url("../videos/box.gif") no-repeat center center;
+background-size:35%;
+}
+#loading span{
+	left:33%;
+	top:70vh;
+	position:absolute;
+}
+}
